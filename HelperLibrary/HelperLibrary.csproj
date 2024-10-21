@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DAO">
+      <HintPath>..\DAO\bin\Debug\net8.0\DAO.dll</HintPath>
+    </Reference>
+    <Reference Include="Entity">
+      <HintPath>..\Entity\bin\Debug\net8.0\Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="ExceptionLibrary">
+      <HintPath>..\ExceptionLibrary\bin\Debug\net8.0\ExceptionLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
